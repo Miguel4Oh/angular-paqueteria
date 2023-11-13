@@ -1,0 +1,89 @@
+.main-body{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1px;
+    border-radius: 3px;
+    box-shadow: 0 0 20px 1px rgba(175, 175, 175, 0.534);
+    background-color: rgb(243, 243, 243);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-title{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    color: white;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 5px 5px 3px 3px;
+    max-width: 100%;
+}
+
+.usuarios-table .main-tr{
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.usuarios-table{
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: collapse;
+}
+
+.usuarios-table th{
+    width: 25%;
+    padding: 0;
+    color: white;
+    background-color: rgb(255, 77, 77);
+    border: solid rgb(238, 238, 238);
+    border-width: 0 1px 5px 0;
+    border-radius: 4px;
+    padding: 10px 0;
+}
+
+.usuarios-table td{
+    width: 25%;
+    padding: 0;
+    background-color: rgb(235, 235, 235);
+    border: solid rgb(238, 238, 238);
+    border-width: 0 0 2px 0;
+    border-radius: 3px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: rgb(255, 59, 59);
+    border-radius: 3px;
+    padding: 5px 4%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons button{
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    height: 100%;
+    border: none;
+    padding: 0 30px;
+}
+
+.buttons button:hover{
+    background-color: rgb(235, 235, 235);
+    color: rgb(255, 59, 59);
+    border-radius: 4px;
+    box-shadow: 0 0 50px 5px rgba(212, 212, 212, 0.329);
+    cursor: pointer;
+}
+
+.buttons div{
+    height: 80%;
+    border: .5px solid rgba(226, 226, 226, 0.301);
+}
